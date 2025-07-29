@@ -5,19 +5,33 @@
 ## Python ##
 
 ## Files ##
-.json
-.po
-.pem
-db.sqlite3
 .pyc
-.mo
+.pem
+.log
+..sqlite3
+.so
 .sqlite3
 .xml
+.json
+...log
 .exe
+.dylib
+.mo
+.po
+db.sqlite3
+.jpg
+..log
+.yml
+
 
 ## Directories ##
-build/
+node_modules/
 .venv/
-models/
-static/
+dist/
+data/
+logs/
+build/
+tmp/
+media/
 __pycache__/
+models/
