@@ -25,12 +25,12 @@
                         </a>
                     </div>
                     <!-- Website Items -->
-                    <div class="space-x-1">
+                    <div class="space-x-1 flex">
                         {% if request.user.is_authenticated %}
-                        <form action="{% url 'logout' %}" method="post">
+                        <form action="{% url 'logout' %}" method="post" class="align-middle">
                             {% csrf_token %}
                             <button
-                                class="px-2 text-gray-500 font-semibold"
+                                class="px-4 text-gray-500 font-semibold"
                                 type="submit"
                             >
                                 Logout
